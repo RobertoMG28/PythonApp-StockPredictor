@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</head>
+<body style="background-color:rgb(221, 209, 188);">
+    <div class="ui segment" style="margin-top: 50px;">
+    <h1 class="ui center aligned header">Stock Predictor</h1>
+    <h2 class="ui center aligned header"><b>Query</b></h2>
+    <p>Type the Desired Date</p>
+    <p>For example, you must write: "2022-01-28"</p>
+    <form action = "/myquerypage" method="post">
+        <div class="field">
+            <label for="title"><b>Input: </b></label>
+            <input type = "text" name = "title" placeholder = "Type data" style="background-color:rgb(231, 227, 219);">
+            <button type = "submit">Add</button>
+
+        </div>
+
+    </form>
+    </div>
+</body>
+</html>
