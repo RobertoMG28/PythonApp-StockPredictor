@@ -1,4 +1,9 @@
 # PythonApp-StockPredictor
+* Created a tool that allows you to .
+* Previously, jupyternotebook
+* Built a client facing API using Flask.
+* 
+
 ## Resources Used
 **Python Version:** 3.10
 **Packages:** pandas, numpy, sklearn, flask, keras, tensorflow
