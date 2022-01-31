@@ -2,7 +2,7 @@
 * Created a tool that allows you to predict stock prices using historical stock data obtained through Yahoo Finance.
 * Used LSTM (Long Short-Term Memory), which is a Recurrent Neural Network (RNN) based architecture for time series forecasting.
 * Previously, I trained a RNN model to predict stock prices of Alphabet on a Jupyter notebook.
-  * Data Cleaning/Visualization (removed null values, train-test split, feature scaling with MinMaxScaler, ...) data visualization with matplotlib)
+  * Data Cleaning/Visualization (removed null values, train-test split, feature scaling with MinMaxScaler, ...)
   * Model Building (RNN model)
 * After that, I built a client facing application using Flask (web framework) that:
   * automatically trains a RNN model with dataset obtained through Yahoo Finance that you must include inside the project folder.
