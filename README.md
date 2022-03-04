@@ -5,7 +5,7 @@
   * Data Cleaning/Visualization (removed null values, train-test split, feature scaling with MinMaxScaler, ...)
   * Model Building (RNN model)
 * After that, I built a client facing application using Flask (web framework) that:
-  * automatically trains a RNN model with dataset obtained through Yahoo Finance that you must include inside the project folder.
+  * automatically trains a RNN model with datasets obtained through Yahoo Finance that you must include inside the project folder.
   * allows you to use that model in order to query the predicted stock price.
 
 
